@@ -2,6 +2,7 @@ import React from 'react';
 import CreateInf from './CreateInf';
 import Header from './pages/Header';
 import List from './List';
+
 import Navbar from './navegacion/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import Landing from './pages/Landingpage';

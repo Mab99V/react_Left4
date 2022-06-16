@@ -75,13 +75,14 @@ const CreateInf = () => {
                 <div className="col md-4">
                  
                     <div className="d-grid gap-2">
+                    <img src="./pr.gif"   className="d-block w-90" alt=""/> 
                         
                         <button className="btn btn-success"   type="submit">Add Infected</button>
                     </div>
                  
                 </div>
               </div>
-                         
+                    
            
            </form>
 

@@ -28,21 +28,28 @@ const List = () => {
             </h1>
           </div>
         </div>
-        <div className="row">
+       <div className="row">
           <div className="col md-4">
-             {data && ( <> {data.infected.map((infected) => ( <Infected key={infected.id} infected={infected}
-             />  ))} </> )}
+          
+           {data && ( <> {data.infected.map((infected) => ( <Infected key={infected.id} infected={infected} />  ))} </> )}
+         
           </div>
-        </div>
+    </div> 
+        
         <br/>
         <br/>
+
         <Link to="/create">
              <div className="d-grid gap-2">
+             <img src="./cr.gif"   className="d-block w-25" alt=""/> 
                <button className="btn btn-danger" type="button">To return</button>
              </div>
           </Link>
           
         
+
+
+      
       </div>
 
    );
